@@ -1,0 +1,113 @@
+.partner {
+  padding-top: 120px;
+  .partner-title {
+    color: #0a377f;
+    font-family: "Inter", sans-serif;
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 44px;
+  }
+
+  .component {
+    padding-top: 24px;
+  }
+}
+
+@media (max-width: 376px) {
+  .partner {
+    margin-top: -38px;
+    .partner-title {
+      font-size: 32px;
+    }
+    .component {
+      margin: 0 auto;
+      gap: 24px;
+      text-align: center;
+    }
+  }
+}
+
+// @media (max-width: 375px) {
+//   .partner {
+//     margin-top: 360px;
+//     .partner-title {
+//       font-size: 32px;
+//     }
+//     .component {
+//       gap: 24px;
+//       margin: 0 auto;
+//       text-align: center;
+//     }
+//   }
+// }
+
+// @media (max-width: 376px) {
+//   .partner {
+//     margin-top: 360px;
+//     .partner-title {
+//       font-size: 32px;
+//     }
+//     .component {
+//       margin: 0 auto;
+//       gap: 24px;
+//       text-align: center;
+//     }
+//   }
+// }
+
+@media (max-width: 391px) {
+  .partner {
+    margin-top: -38px;
+    .partner-title {
+      font-size: 32px;
+    }
+    .component {
+      gap: 24px;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+}
+@media (max-width: 390px) {
+  .partner {
+    margin-top: -38px;
+    .partner-title {
+      font-size: 32px;
+    }
+    .component {
+      gap: 24px;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 481px) {
+  .partner {
+    margin-top: -38px;
+    .partner-title {
+      font-size: 32px;
+    }
+    .component {
+      gap: 24px;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .partner {
+    margin-top: -38px;
+    .partner-title {
+      font-size: 32px;
+    }
+    .component {
+      gap: 24px;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+}

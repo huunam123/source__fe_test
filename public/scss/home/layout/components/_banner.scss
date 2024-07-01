@@ -1,0 +1,619 @@
+.nl-banner {
+  margin-top: $banner-margin-top-pc;
+
+  @include media-breakpoint-down(md) {
+    margin-top: 0;
+  }
+
+  //   .nl-banner__inner {
+
+  // }
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+}
+
+.banner-content {
+  display: flex;
+  padding-top: 210px;
+  position: relative;
+  z-index: 9;
+  width: 100%;
+
+  .swiper {
+    width: 639px;
+    margin: 0;
+    cursor: default;
+
+    .swiper-pagination {
+      margin-left: -294px;
+      .swiper-pagination-bullet {
+        // opacity: var(--swiper-pagination-bullet-opacity, 1);
+        background: #ffffff;
+      }
+    }
+  }
+  .banner- {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+    padding-bottom: 90px;
+
+    .banner-text {
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+
+      .text {
+        color: #fff;
+        font-family: "Inter";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      .contents {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1px;
+        padding-top: 32px;
+        .textt- {
+          color: #fff;
+          font-family: "Inter";
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+
+        .text-content {
+          color: #fff;
+          font-family: "Inter";
+          font-size: 64px;
+          font-style: normal;
+          font-weight: 800;
+          line-height: normal;
+        }
+      }
+      .content {
+        color: #fff;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        width: 515px;
+        max-width: 100%;
+        text-align: left;
+      }
+
+      .text-contents {
+        display: flex;
+        padding: 12px 18px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 8px;
+        background: var(
+          --Law-2,
+          linear-gradient(
+            90deg,
+            #d5a271 0%,
+            #ffe5a1 32.85%,
+            #ffffc6 65.6%,
+            #d5a271 100%
+          )
+        );
+        margin-top: 32px;
+        .content-s {
+          color: var(--One-Xanh, #0a377f);
+          text-align: center;
+          font-family: "Inter";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 20px;
+        }
+      }
+      .frame {
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
+      }
+    }
+  }
+
+  .banner-right {
+    margin-top: -88px;
+    position: relative;
+    left: 12%;
+    img {
+      position: absolute;
+    }
+  }
+}
+
+#nl-main .sl-section:nth-child(2) {
+  position: relative;
+  z-index: 30;
+  margin-top: 14%;
+
+  @media (min-width: 1600px) and (max-width: 1900px) {
+    margin-top: 14%;
+  }
+
+  @include media-breakpoint-down(lg) {
+    margin-top: 14%;
+  }
+}
+
+#nl-main {
+  .banner {
+    background: url("/images/bannerr.webp") no-repeat top center;
+    background-size: cover;
+    position: relative;
+
+    &::before {
+      content: "";
+      height: 246px;
+      flex-shrink: 0;
+      border-radius: 0px 0px 48px 48px;
+      background: #0d45a0;
+      position: absolute;
+      width: 100%;
+      z-index: 2;
+      bottom: -64px;
+    }
+
+    .backgr {
+      padding-top: 112px;
+      display: flex;
+      align-items: center;
+      gap: 48px;
+      z-index: 2;
+      position: relative;
+      max-width: 1280px;
+      margin: 0 auto;
+
+      .conten {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        .text {
+          color: var(--White, #fff);
+          width: 504px;
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px; /* 150% */
+        }
+
+        .dl {
+          display: flex;
+          align-items: flex-start;
+          gap: 32px;
+          width: 100%;
+          cursor: pointer;
+
+          .badge-gg {
+            cursor: pointer;
+            opacity: 1px;
+          }
+
+          .badge-app {
+            cursor: pointer;
+            opacity: 1px;
+          }
+        }
+      }
+    }
+  }
+}
+
+#nl-main {
+  .banner {
+    @media only screen and (max-width: 1500px) {
+      background-size: auto;
+      height: auto;
+    }
+  }
+}
+
+#nl-main {
+  .banner {
+    @media only screen and (max-width: 693px) {
+      background-size: auto;
+      height: auto;
+    }
+  }
+}
+
+//phải để theo thứ tự từ lớn đến bé
+
+@media (max-width: 431px) {
+  #nl-main {
+    .banner {
+      &::before {
+        height: 729px;
+      }
+      .backgr {
+        display: flex;
+        width: 343px;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: -114px;
+
+        .ig {
+          img {
+            width: 185px;
+          }
+        }
+        .conten {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 12px;
+          align-self: stretch;
+          .text {
+            margin: 0 auto;
+            text-align: justify;
+            width: 343px;
+          }
+        }
+      }
+    }
+  }
+
+  .banner-content {
+    padding-top: 120px;
+    display: block;
+    .swiper {
+      width: 100%;
+      .swiper-pagination {
+        margin-left: -146px;
+        .swiper-pagination-bullet {
+          background: #ffffff;
+        }
+      }
+      .banner- {
+        width: 100%;
+        padding-bottom: 70px;
+        .banner-text {
+          margin-top: 16px;
+          background-color: transparent;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 24px;
+          align-self: stretch;
+
+          .text {
+            font-size: 20px;
+          }
+          .contents {
+            padding-top: 0px;
+            .textt- {
+              font-size: 20px;
+            }
+            .text-content {
+              font-size: 48px;
+              align-self: stretch;
+              text-align: left;
+              width: 100%;
+            }
+          }
+          .text-contents {
+            margin-top: -0px;
+          }
+        }
+      }
+    }
+    .banner-right {
+      display: inline-block;
+      position: relative;
+      margin: 0 auto;
+      text-align: center;
+      padding-left: 20px;
+      img {
+        position: relative;
+        width: 251px;
+        height: auto;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+@media (max-width: 415px) {
+  #nl-main {
+    .banner {
+      &::before {
+        height: 729px;
+      }
+      .backgr {
+        display: flex;
+        width: 343px;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: -114px;
+
+        .ig {
+          img {
+            width: 185px;
+          }
+        }
+        .conten {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 12px;
+          align-self: stretch;
+          .text {
+            margin: 0 auto;
+            text-align: justify;
+            width: 343px;
+          }
+        }
+      }
+    }
+  }
+
+  .banner-content {
+    padding-top: 120px;
+    display: block;
+    .swiper {
+      width: 100%;
+      .swiper-pagination {
+        margin-left: -146px;
+        .swiper-pagination-bullet {
+          background: #ffffff;
+        }
+      }
+      .banner- {
+        width: 100%;
+        padding-bottom: 70px;
+        .banner-text {
+          margin-top: 16px;
+          background-color: transparent;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 24px;
+          align-self: stretch;
+
+          .text {
+            font-size: 20px;
+          }
+          .contents {
+            padding-top: 0px;
+            .textt- {
+              font-size: 20px;
+            }
+            .text-content {
+              font-size: 48px;
+              align-self: stretch;
+              text-align: left;
+              width: 100%;
+            }
+          }
+          .text-contents {
+            margin-top: -0px;
+          }
+        }
+      }
+    }
+    .banner-right {
+      display: inline-block;
+      position: relative;
+      margin: 0 auto;
+      text-align: center;
+      padding-left: 15px;
+      img {
+        position: relative;
+        width: 251px;
+        height: auto;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+@media (max-width: 390px) {
+  #nl-main {
+    .banner {
+      &::before {
+        height: 729px;
+      }
+      .backgr {
+        display: flex;
+        width: 343px;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: -114px;
+
+        .ig {
+          img {
+            width: 185px;
+          }
+        }
+        .conten {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 12px;
+          align-self: stretch;
+          .text {
+            margin: 0 auto;
+            text-align: justify;
+            width: 343px;
+          }
+        }
+      }
+    }
+  }
+
+  .banner-content {
+    padding-top: 120px;
+    display: block;
+    .swiper {
+      width: 100%;
+      .swiper-pagination {
+        margin-left: -146px;
+        .swiper-pagination-bullet {
+          background: #ffffff;
+        }
+      }
+      .banner- {
+        width: 100%;
+        padding-bottom: 70px;
+        .banner-text {
+          margin-top: 16px;
+          background-color: transparent;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 24px;
+          align-self: stretch;
+
+          .text {
+            font-size: 20px;
+          }
+          .contents {
+            padding-top: 0px;
+            .textt- {
+              font-size: 20px;
+            }
+            .text-content {
+              font-size: 48px;
+              align-self: stretch;
+              text-align: left;
+              width: 100%;
+            }
+          }
+          .text-contents {
+            margin-top: -0px;
+          }
+        }
+      }
+    }
+    .banner-right {
+      display: inline-block;
+      position: relative;
+      margin: 0 auto;
+      text-align: center;
+      padding-left: 7px;
+
+      img {
+        position: relative;
+        width: 251px;
+        height: auto;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+@media (max-width: 361px) {
+  #nl-main {
+    .banner {
+      &::before {
+        height: 729px;
+      }
+      .backgr {
+        display: flex;
+        width: 343px;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: -114px;
+
+        .ig {
+          img {
+            width: 185px;
+          }
+        }
+        .conten {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 12px;
+          align-self: stretch;
+          .text {
+            margin: 0 auto;
+            text-align: justify;
+            width: 343px;
+          }
+          .dl{
+            gap:24px;
+          }
+        }
+      }
+    }
+  }
+
+  .banner-content {
+    padding-top: 120px;
+    display: block;
+    .swiper {
+      width: 100%;
+      .swiper-pagination {
+        margin-left: -146px;
+        .swiper-pagination-bullet {
+          background: #ffffff;
+        }
+      }
+      .banner- {
+        width: 100%;
+        padding-bottom: 70px;
+        .banner-text {
+          margin-top: 16px;
+          background-color: transparent;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 24px;
+          align-self: stretch;
+
+          .text {
+            font-size: 20px;
+          }
+          .contents {
+            padding-top: 0px;
+            .textt- {
+              font-size: 20px;
+            }
+            .text-content {
+              font-size: 48px;
+              align-self: stretch;
+              text-align: left;
+              width: 100%;
+            }
+          }
+          .text-contents {
+            margin-top: -0px;
+          }
+        }
+      }
+    }
+    .banner-right {
+      display: inline-block;
+      position: relative;
+      margin: 0 auto;
+      text-align: center;
+      margin-left: -12px;
+      img {
+        position: relative;
+        width: 251px;
+        height: auto;
+        margin: 0 auto;
+      }
+    }
+  }
+}

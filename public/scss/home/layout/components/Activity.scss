@@ -1,0 +1,260 @@
+.activity {
+  display: flex;
+  width: 1280px;
+  flex-direction: column;
+  gap: 46px;
+  margin-top: 130px;
+
+  .activity-title {
+    color: rgba(10, 55, 127, 1);
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 44px;
+  }
+
+  .activity-content {
+    display: flex;
+    align-items: flex-start;
+
+    .item {
+      width: 100%;
+      margin-top: -20px;
+
+      .bu-text {
+        padding-top: 32px;
+
+        .text- {
+          font-family: "Inter";
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 23px;
+          color: rgba(10, 55, 127, 1);
+          max-width: 100%;
+        }
+
+        .text-- {
+          font-family: "Inter";
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: rgb(152, 162, 179);
+          padding-top: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 431px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 431px) {
+  .activity {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 32px;
+    margin: 0 auto;
+    padding-top: 80px;
+
+    .activity-content {
+      padding-top: 40px;
+      gap: 40px;
+      //   .col-lg-4{
+
+      //     padding-right: 0px;
+      //     padding-left: 0px;
+      //     width:100%;
+
+      // }
+      .item {
+        width: 100%;
+        img {
+          height: auto;
+          align-self: stretch;
+          border-radius: 16px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 431px) {
+  .activity {
+    .activity-title {
+      font-size: 34px;
+    }
+  }
+}
+
+@media (max-width: 431px) {
+  .activity {
+    .activity-content {
+      .item {
+        .bu-text {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 16px;
+          .text-- {
+            font-family: "Inter";
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            text-align: left;
+            align-self: stretch;
+            color: var(--Gray-One-400, #98a2b3);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 431px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .activity {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 32px;
+    margin: 0 auto;
+    padding-top: 80px;
+
+    .activity-content {
+      padding-top: 40px;
+      gap: 40px;
+      //   .col-lg-4{
+
+      //     padding-right: 0px;
+      //     padding-left: 0px;
+      //     width:100%;
+
+      // }
+      .item {
+        width: 100%;
+        img {
+          height: auto;
+          align-self: stretch;
+          border-radius: 16px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .activity {
+    .activity-title {
+      font-size: 33px;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .activity {
+    .activity-content {
+      .item {
+        .bu-text {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 16px;
+          .text-- {
+            font-family: "Inter";
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 24px;
+            text-align: left;
+            align-self: stretch;
+            color: var(--Gray-One-400, #98a2b3);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 390px) {
+  .activity {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 32px;
+    margin: 0 auto;
+    padding-top: 80px;
+
+    .activity-content {
+      padding-top: 40px;
+      gap: 40px;
+      //   .col-lg-4{
+
+      //     padding-right: 0px;
+      //     padding-left: 0px;
+      //     width:100%;
+
+      // }
+      .item {
+        width: 100%;
+        img {
+          height: auto;
+          align-self: stretch;
+          border-radius: 16px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  .activity {
+    .activity-title {
+      font-size: 30px;
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  .activity {
+    .activity-content {
+      .item {
+        .bu-text {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 16px;
+          .text-- {
+            font-family: "Inter";
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: left;
+            align-self: stretch;
+            color: var(--Gray-One-400, #98a2b3);
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,239 @@
+@import "../../../core/components/dropdown";
+
+#nl-header {
+  width: 100%;
+  max-width: 100%;
+  background-color: transparent;
+  @include box-shadow(inherit);
+  z-index: 9;
+  position: absolute;
+
+  .MuiToolbar-root {
+    width: 100%;
+    flex: 0 0 100%;
+    min-height: auto;
+  }
+
+  //media min-width 992px
+  @include media-breakpoint-up(lg) {
+    #nl-headerr__mastehead {
+      height: $header-height-pc;
+      padding: $header-padding;
+      width: 100%;
+      flex: 0 0 100%;
+      overflow: hidden;
+      gap: 0px;
+      opacity: 1px;
+
+      .d-flex- {
+        height: 100%;
+        align-items: center;
+      }
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    #nl-headerr__mastehead {
+      height: $header-height-pc;
+      padding: $header-padding;
+      width: 100%;
+      flex: 0 0 100%;
+      overflow: hidden;
+      width: 100%;
+      height: 616px;
+      gap: 0px;
+      opacity: 1px;
+    }
+  }
+
+  @include media-breakpoint-only(lg) {
+    #nl-headerr__mastehead {
+      padding: 0 30px;
+    }
+  }
+
+  #nl-headerr__mastehead {
+    .d-flex- {
+      width: 100%;
+      margin: 0 auto;
+      height: auto;
+    }
+  }
+}
+
+//media screen 575.98px
+@include media-breakpoint-down(sm) {
+  #nl-headerr__mastehead {
+    padding: 0 11px;
+  }
+}
+
+@media (max-width: 390px) {
+  #nl-headerr__mastehead {
+    .d-flex- {
+      .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 26px;
+        gap: 44px;
+        .doctor-text {
+          .group-doctor {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            flex: 1 0 0;
+            img {
+              width: 91px;
+              height: 31px;
+            }
+          }
+        }
+        .language {
+          display: flex;
+          flex-direction: unset;
+          align-items: center;
+          gap: 24px;
+        }
+      }
+    }
+  }
+}
+.menu {
+  display: flex;
+  max-width: 1280px;
+  padding: 20px 0px;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  border-bottom: 1px solid #fff;
+  border-image: linear-gradient(to right, transparent, #fff, transparent) 1;
+
+  .doctor-text {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex: 1 0 0;
+
+    .group-doctor {
+      img {
+        width: 112px;
+      }
+    }
+  }
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  .button- {
+    display: flex;
+    align-items: center;
+
+    .button-base {
+      gap: 4px;
+      display: flex;
+      align-items: center;
+
+      .text-v {
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        color: var(--Base-White, #fff);
+      }
+
+      .text- {
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        font-weight: 100;
+        line-height: 20px;
+        text-align: left;
+        color: var(--Base-White, #fff);
+      }
+
+      .text-e {
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        color: rgba(255, 255, 255, 0.3);
+      }
+    }
+  }
+  .language-call :hover {
+    color: #dcc76c;
+  }
+  .language-call {
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(
+      --One-Gold,
+      linear-gradient(
+        90deg,
+        #d5a271 0%,
+        #ffe5a1 32.85%,
+        #ffffc6 65.6%,
+        #d5a271 100%
+      )
+    );
+
+    .call-text {
+      color: var(--One-Xanh, #0a377f);
+      text-align: center;
+      font-family: "Inter";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 20px;
+    }
+  }
+}
+
+//media max-width:991.98px
+@include media-breakpoint-down(lg) {
+  #nl-headerr__mastehead {
+    @include media-breakpoint-up(md) {
+      &.transparent {
+        box-shadow: inherit;
+        -webkit-box-shadow: inherit;
+        -moz-box-shadow: inherit;
+        background-color: transparent;
+        transition: background-color 0.4s;
+      }
+
+      #guide-nav nav ul li a {
+        color: #fff;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+
+        &.active {
+          color: #f04438;
+        }
+
+        &:hover {
+          color: #f04438;
+        }
+      }
+
+      #guide-search > .ic-search i {
+        color: #fff;
+      }
+
+      #guide-user .guide-user__login--no i {
+        color: #fff;
+      }
+    }
+  }
+}

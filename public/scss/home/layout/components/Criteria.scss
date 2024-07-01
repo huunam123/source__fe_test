@@ -1,0 +1,206 @@
+.partners {
+  margin-top: 0px;
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    .partner-title {
+      color: #0a377f;
+      font-family: "Inter", sans-serif;
+      margin: 0 auto;
+      font-size: 36px;
+      font-weight: 600;
+      text-align: center;
+      line-height: 44px;
+    }
+
+    .partner-titles {
+      width: 842px;
+      color: var(--Gray-One-900, #101828);
+      text-align: center;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px; /* 175% */
+    }
+  }
+  .components {
+    padding-top: 56px;
+  }
+}
+
+@media (max-width: 431px) {
+  .partners {
+    margin-top: 80px;
+    .text {
+      text-align: center;
+      gap: 24px;
+      .partner-title {
+        color: var(--One-Xanh, #0a377f);
+        font-family: "Inter";
+        font-size: 37px;
+        font-style: normal;
+        font-weight: 600;
+        width: 100%;
+      }
+      .partner-titles {
+        color: var(--Gray-One-900, #101828);
+        font-family: "Inter";
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        width: 102%;
+      }
+    }
+    .components {
+      margin: 0 auto;
+      gap: 32px;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 415px) {
+  .partners {
+    .text {
+      .partner-titles {
+        color: var(--Gray-One-900, #101828);
+        font-family: "Inter";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        width: 100%;
+      }
+    }
+  }
+}
+@media (max-width: 414px) {
+  .partners {
+    .text {
+      .partner-titles {
+        color: var(--Gray-One-900, #101828);
+        font-family: "Inter";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        width: 101%;
+      }
+    }
+  }
+}
+
+@media (max-width: 412px) {
+  .partners {
+    .text {
+      .partner-titles {
+        color: var(--Gray-One-900, #101828);
+        font-family: "Inter";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        width: 101%;
+      }
+    }
+  }
+}
+
+@media (max-width: 391px) {
+  .partners {
+    .text {
+      .partner-titles {
+        color: var(--Gray-One-900, #101828);
+        font-family: "Inter";
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        width: 101%;
+      }
+    }
+  }
+}
+@media (max-width: 391px) {
+  .partners {
+    margin-top: 80px;
+    .text {
+      text-align: center;
+      gap: 24px;
+      .partner-title {
+        color: var(--One-Xanh, #0a377f);
+        font-family: "Inter";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        width: 100%;
+      }
+      .partner-titles {
+        color: var(--Gray-One-900, #101828);
+        font-family: "Inter";
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        width: 101%;
+      }
+    }
+    .components {
+      margin: 0 auto;
+      gap: 32px;
+      text-align: center;
+    }
+  }
+}
+
+// @media (max-width: 390px) {
+//   .partners {
+//     .text {
+//       .partner-titles {
+//         color: var(--Gray-One-900, #101828);
+//         font-family: "Inter";
+//         font-size: 16px;
+//         font-style: normal;
+//         font-weight: 400;
+//         line-height: 28px;
+//         width: 101%;
+//       }
+//     }
+//   }
+// }
+
+@media (max-width: 375px) {
+  .partners {
+    .text {
+      .partner-titles {
+        color: var(--Gray-One-900, #101828);
+        font-family: "Inter";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .partners {
+    .text {
+      .partner-titles {
+        color: var(--Gray-One-900, #101828);
+        font-family: "Inter";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        width: 104%;
+      }
+    }
+  }
+}
